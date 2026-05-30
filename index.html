@@ -2323,22 +2323,22 @@ async function fetchGenres() {
 
 const SERVERS = [
   // ── AnimePahe backend ──────────────────────────────────────────
-  { name: 'Gomu Gomu',   src: 'pahe', lang: 'both',
+  { name: 'Server 1',   src: 'pahe', lang: 'both',
     build: (id, malId, ep, isDub) => `https://vidnest.fun/animepahe/${id}/${ep}/${isDub?'dub':'sub'}` },
-  { name: 'Mera Mera',   src: 'pahe', lang: 'both',
+  { name: 'Server 2',   src: 'pahe', lang: 'both',
     build: (id, malId, ep, isDub) => `https://vidnest.fun/animepahe/${id}/${ep}/${isDub?'dub':'sub'}?server=primesrc` },
-  { name: 'Hie Hie',     src: 'pahe', lang: 'both',
+  { name: 'Server 3',     src: 'pahe', lang: 'both',
     build: (id, malId, ep, isDub) => `https://vidnest.fun/animepahe/${id}/${ep}/${isDub?'dub':'sub'}?server=sigma` },
   // ── Zoro / HiAnime backend ─────────────────────────────────────
-  { name: 'Pika Pika',   src: 'zoro', lang: 'both',
+  { name: 'Server 4',   src: 'zoro', lang: 'both',
     build: (id, malId, ep, isDub) => `https://vidnest.fun/anime/${id}/${ep}/${isDub?'dub':'sub'}` },
-  { name: 'Gura Gura',   src: 'zoro', lang: 'both',
+  { name: 'Server 5',   src: 'zoro', lang: 'both',
     build: (id, malId, ep, isDub) => `https://vidnest.fun/anime/${id}/${ep}/${isDub?'dub':'sub'}?server=alfa` },
-  { name: 'Yami Yami',   src: 'zoro', lang: 'both',
+  { name: 'Server 6',   src: 'zoro', lang: 'both',
     build: (id, malId, ep, isDub) => `https://vidnest.fun/anime/${id}/${ep}/${isDub?'dub':'sub'}?server=beta` },
-  { name: 'Ope Ope',     src: 'zoro', lang: 'both',
+  { name: 'Server 7',     src: 'zoro', lang: 'both',
     build: (id, malId, ep, isDub) => `https://vidnest.fun/anime/${id}/${ep}/${isDub?'dub':'sub'}?server=gama` },
-  { name: 'Nikyu Nikyu', src: 'zoro', lang: 'both',
+  { name: 'Server 8', src: 'zoro', lang: 'both',
     build: (id, malId, ep, isDub) => `https://vidnest.fun/anime/${id}/${ep}/${isDub?'dub':'sub'}?server=delta` },
 ];
 
