@@ -2530,7 +2530,7 @@ function _loadEpisodeOnCurrentServer() {
   // Create iframe
   const iframe = document.createElement('iframe');
   iframe.id = 'videoPlayer';
-  iframe.src = src;
+  iframe.src = "about:blank";
   iframe.allowFullscreen = true;
   iframe.setAttribute('allow', 'autoplay; fullscreen; picture-in-picture; encrypted-media');
   iframe.setAttribute('frameborder', '0');
